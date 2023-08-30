@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joe Doe - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="links-container">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section id="hero" class="hero section-1">
+      <div class="parallax-background" id="parallaxBg"></div>
+      <div class="hero-content">
+        <h1>John Doe</h1>
+        <h4>Programmer</h4>
+        <p>
+          "In the infinity of life where I am, all is perfect, whole, and
+          complete."
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="section-about">
+      <div class="container">
+        <div class="about-content">
+          <h2>About Me</h2>
+          <p>
+            With 3 years of experience as a programmer, I'm on a relentless
+            journey of growth, transforming challenges into stepping stones
+            toward success. Programming, for me, is not just about code; it's
+            about weaving logic into artistry, crafting intricate solutions from
+            abstract concepts.
+          </p>
+
+          <p>
+            From the early days of my coding voyage, I've embraced challenges
+            like puzzle pieces. Every bug encountered, every roadblock faced,
+            has been a portal to deeper understanding. The sleepless nights
+            debugging, the triumphs of seeing a project come to life – these are
+            the rhythms of my life.
+          </p>
+
+          <p>
+            My path has been marked by an insatiable curiosity, driving me to
+            explore new languages, frameworks, and technologies. But it's not
+            just about keeping up with trends; it's about finding the right tool
+            for the right job. Efficiency, after all, is a symphony of
+            intelligent choices.
+          </p>
+
+          <p>
+            Yet, my journey isn't just about the code. It's about the people and
+            the community that have taught me the value of collaboration and
+            learning. The open-source world, meetups, and hackathons have
+            expanded my horizons and forged connections beyond the screen.
+          </p>
+
+          <p>
+            As I stand at this juncture, my gaze is fixed on the horizon of
+            infinite possibilities. Each line of code is a brushstroke on a
+            canvas of creativity, and every project is a testament to my
+            dedication. In this dynamic realm of programming, I find solace in
+            the process, and with each challenge conquered, I discover the
+            boundless potential that lies within.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-container">
+          <article class="project align-left">
+            <img src="/public/images/e-commerce.jpg" alt="Project 1" />
+            <div class="project-text">
+              <h3>E-commerce Website</h3>
+              <p>Full-stack e-commerce platform with React and Node.js.</p>
+            </div>
+          </article>
+          <article class="project align-right">
+            <img src="/public/images/task-menagament.jpg" alt="Project 2" />
+            <div class="project-text">
+              <h3>Task Management App</h3>
+              <p>Vue.js and Firebase-powered task management application.</p>
+            </div>
+          </article>
+          <article class="project align-left">
+            <img src="/public/images/card-game.jpg" alt="Project 1" />
+            <div class="project-text">
+              <h3>E-commerce Website</h3>
+              <p>Full-stack e-commerce platform with React and Node.js.</p>
+            </div>
+          </article>
+          <article class="project align-right">
+            <img src="/public/images/table-raservation.jpg" alt="Project 2" />
+            <div class="project-text">
+              <h3>Task Management App</h3>
+              <p>Vue.js and Firebase-powered task management application.</p>
+            </div>
+          </article>
+          <!-- Add more projects as needed -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-form">
+          <form>
+            <div class="left-column">
+              <input
+                type="text"
+                id="name"
+                class="contact-input"
+                placeholder="Name"
+              />
+              <input
+                type="email"
+                id="email"
+                class="contact-input"
+                placeholder="Email"
+              />
+              <input
+                type="tel"
+                id="phone"
+                class="contact-input"
+                placeholder="Phone"
+              />
+            </div>
+            <div class="right-column">
+              <textarea
+                id="message"
+                class="contact-input"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <button type="submit" class="contact-button">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 John Doe . All rights reserved.</p>
+    </footer>
+
+    <!-- cursor elements -->
+    <svg
+      class="cursor cursor--1"
+      width="12"
+      height="12"
+      viewBox="0 0 12 12"
+      data-scale-enter="0"
+      data-opacity-enter="0"
+    >
+      <circle class="cursor__inner" cx="6" cy="6" r="3"></circle>
+    </svg>
+    <svg
+      class="cursor cursor--2"
+      width="72"
+      height="72"
+      viewBox="0 0 72 72"
+      data-scale-enter="2"
+      data-opacity-enter=".5"
+      data-amt="0.15"
+    >
+      <circle class="cursor__inner" cx="36" cy="36" r="18"></circle>
+    </svg>
+    <!-- End of cursor elements -->
+    <script src="cursor.js"></script>
+    <script src="navbar.js"></script>
+    <script src="background-starts.js"></script>
+  </body>
+</html>
